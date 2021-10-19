@@ -1,20 +1,14 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
 
-        System.out.println("input x: ");
-        int x = scanner.nextInt();
-        System.out.println("input y: ");
-        int y = scanner.nextInt();
+        int x = random.nextInt(101);
+        System.out.println("rand x: " + x);
 
-        if (x > 0 & y > 0) {
-            System.out.println("numbers are positives");
-        }
-
-        // System.out.println(+(x+y));
-
-        // System.out.println("abc " + x+y);
+        double y = Math.random();
+        System.out.println("rand y: " + y);
     }
 }

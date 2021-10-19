@@ -5,6 +5,7 @@ public class S02_ArraysFill {
 
     public static void main(String[] args) {
         int[] array = new int[5];
+        int x = array.length;
 
         // Заполнение массива.
         for (int i = 0; i < array.length; i++) {

@@ -47,7 +47,7 @@ public class S14_SpiderLoop {
         Scanner in = new Scanner(System.in);
         boolean flag;
 
-        for (; ; ) {
+        for (; ;) {
             character = in.next().charAt(0);
 
             switch (character) {

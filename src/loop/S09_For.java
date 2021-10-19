@@ -9,6 +9,8 @@ public class S09_For {
         for (int counter = 0; counter < 3; counter++) {
             System.out.println("Counter = " + counter);
         }
+        System.out.println("qwerty");
+
 
         //counter = 0; //  counter - недоступен за пределами цикла for.
     }

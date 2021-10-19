@@ -10,7 +10,9 @@ public class S02_WhileBreak {
             counter++;
             System.out.println("Counter " + counter);
 
-            if (true) break;
+            if (counter == 1) {
+                break;
+            }
 
             System.out.println("Эта строка не выполнится.");
         }

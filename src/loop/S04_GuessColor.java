@@ -21,6 +21,7 @@ public class S04_GuessColor {
 
             if (value.equals("exit")) {
                 break;
+
             }
 
             if (!value.equals(color)) {
